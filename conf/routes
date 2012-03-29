@@ -4,7 +4,7 @@
 
 # Home page
 GET     /                                       Application.index
-*		/tickets/								TicketSystem.main
+*		/issues/								TicketSystem.main
 
 # Import CRUD routes
 *      /admin              						module:crud
