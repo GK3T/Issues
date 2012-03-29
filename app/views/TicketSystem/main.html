@@ -1,0 +1,10 @@
+#{extends 'main.html' /}
+#{set title:'AdanacIssues' /}
+
+<h1>Issue tracker</h2>
+
+
+<form method="POST" action="@{TicketSystem.findTicket}">
+Ticket name: <input type="text" name="ticketName" /><br />
+
+</form>
